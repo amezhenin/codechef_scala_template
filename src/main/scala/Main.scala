@@ -1,5 +1,9 @@
-package main
 /**
+ * Problem: http://www.codechef.com/problems/HS08TEST
+ *
+ * Helpers:
+ * ========
+ *
  * readInt()
  * readLine()
  * readLine().toList
@@ -11,32 +15,10 @@ package main
  * var Array(x1,x2) = readLine().split(" ").map(_.toDouble)
  * */
 
-/**
-
-Example - Successful Transaction
-Input:
-30 120.00
-Output:
-89.50
-
-Example - Incorrect Withdrawal Amount (not multiple of 5)
-Input:
-42 120.00
-Output:
-120.00
-
-Example - Insufficient Funds
-Input:
-300 120.00
-Output:
-120.00
-
-  */
-
-
 object Main {
 
   /**
+   * Checkout https://github.com/amezhenin/codechef_scala_template to test your solutions with sbt-doctest
    * {{{
    * >>> Main.alg(30, 120.00)
    * 89.5
