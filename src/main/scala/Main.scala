@@ -1,6 +1,4 @@
 /**
- * Problem: http://www.codechef.com/problems/HS08TEST
- *
  * Helpers:
  * ========
  *
@@ -15,6 +13,11 @@
  * var Array(x1,x2) = readLine().split(" ").map(_.toDouble)
  * */
 
+
+/**
+ * Problem: http://www.codechef.com/problems/HS08TEST
+ * GitHub: https://github.com/amezhenin/codechef_problems
+ */
 object Main {
 
   /**
