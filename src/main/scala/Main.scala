@@ -35,9 +35,8 @@ object Main {
    *
    * }}}
    * */
-  def alg(amount: Int, balance: Double):Double = {
-    if(amount % 5 != 0 || amount + .5 > balance) balance
-    else balance - amount - .5
+  def alg(): = {
+
   }
 
 
