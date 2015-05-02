@@ -2,6 +2,7 @@
  * Helpers:
  * ========
  *
+ * io.Source.stdin.getLines()
  * readInt()
  * readLine()
  * readLine().toList
