@@ -11,10 +11,10 @@
  * .toInt
  * .toDouble
  * .toFloat
- * var Array(x1,x2) = readLine().split(" ").map(_.toDouble)
+ * var Array(x1,x2) = readLine().split(" ").map(_.toInt)
  * for (i <- 0 until readInt())
+ * mutable.ArrayBuffer.fill(n)(0)
  * */
-
 
 /**
  * Problem: http://www.codechef.com/problems/
